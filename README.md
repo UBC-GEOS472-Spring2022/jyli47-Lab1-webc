@@ -8,8 +8,8 @@ To show those places in the map, I needed to effective and value the thoughtfuln
 2. Road network surface
 - Road major-link (color to orange)
 - Road-primary (color to yellow) 
-- Road secondary-tertiary (color to yellow)
-- Road-street (color to yellow)
+- Road secondary-tertiary (color to purple)
+- Road-street (color to purple)
 - Road motorway-trunk-case (color to dark grey)
 3. Land, water, &sky water
 - landuse ( color to soil tone)
