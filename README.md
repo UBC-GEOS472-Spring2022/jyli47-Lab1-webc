@@ -1,6 +1,6 @@
 # jyli47-lab1-webc
 Link to Map: ![GitHub Light](https://ubc-geos472-spring2022.github.io/jyli47-lab1-webc/index.html)
-https://ubc-geos472-spring2022.github.io/jyli47-lab1-webc/index.html
+https://ubc-geos472-spring2022.github.io/jyli47-lab1-webc/
 
 In this lab, I chose vector data base map for the country dataset.  Using Mapbox Studio created new style and changed it to be able to style up some of my own data within an insightful and relevant visual context. I produced this context through choosing and thoughtfully altering an existing map style. I chose the data is showing the place that the students are interested in, which is varied Vancouver we did the activity in early class.
 
