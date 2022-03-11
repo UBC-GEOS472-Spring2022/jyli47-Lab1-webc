@@ -22,17 +22,31 @@
   <body>
     <div id='map'></div>
     <script>
-    // The value for 'accessToken' begins with 'pk...'
-    mapboxgl.accessToken = 'pk.eyJ1IjoiamxpNDciLCJhIjoiY2wwMjc5dmRqMHE5eDNvcnlwd29zY3EyayJ9.zcqlSyi6nKyEO9JU36hy1w'; 
-    const map = new mapboxgl.Map({
-      container: 'map',
-      // Replace YOUR_STYLE_URL with your style URL.
-      style: 'mapbox://styles/jli47/cl02skpqv00fo15n7t28il3ak', 
-      center: [49.259, -123.222],
-      zoom: 12.4
-    });
+    mapboxgl.accessToken = 'pk.eyJ1IjoiamxpNDciLCJhIjoiY2wwMjc5dmRqMHE5eDNvcnlwd29zY3EyayJ9.zcqlSyi6nKyEO9JU36hy1w';
+var map = new mapboxgl.Map({
+container: 'map', // container id
+style: 'mapbox://styles/jli47/cl02skpqv00fo15n7t28il3ak', //hosted style id
+center: [49.259, -123.222], // starting position
+zoom: 12.4 // starting zoom
+});
 
-    // Code from the next step will go here.
+var magDisplay = document.getElementById('mag');
+var latDisplay = document.getElementById('lat');
+var longDisplay = document.getElementById('long');
+
+var quakeID = null;
+
+map.on('mousemove', 'lab1-6tcxtj', (e) => {
+
+  map.getCanvas().style.cursor = 'pointer';
+  // Set variables equal to the current feature's magnitude, location, and time
+  var quakeMagnitude = e.features[0].properties.brightness;
+  var quakelat = e.features[0].properties.latitude;
+  var quakelong = e.features[0].properties.longitude;
+
+ 
+});
+
 
     </script>
   </body>
