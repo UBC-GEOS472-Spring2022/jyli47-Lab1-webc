@@ -27,16 +27,7 @@
   </style>
 </head>
 <body>
-  <div id="map"></div>
-  <div class='map-overlay' id='features'><h2>Australian Wildfires on Christmas in 2019</h2>
-  <div id='pd'><p>Data provided by NASA's MODIS satellite imagery</p></div></div>
-  <div class='fireInfo'>
-  <div><strong>Intensity of fire by brightness:</strong> <span id='mag'></span></div>
-  <div><strong>Latitude:</strong> <span id='lat'></span><strong>°</strong></div>
-  <div><strong>Longitude:</strong> <span id='long'></span><strong>°</strong></div>
-</div>
-
-
+  
 
 <script>
 	mapboxgl.accessToken = 'pk.eyJ1IjoiamxpNDciLCJhIjoiY2wwMjc5dmRqMHE5eDNvcnlwd29zY3EyayJ9.zcqlSyi6nKyEO9JU36hy1w';
@@ -61,34 +52,7 @@ map.on('mousemove', 'lab1-6tcxtj', (e) => {
   var quakelat = e.features[0].properties.latitude;
   var quakelong = e.features[0].properties.longitude;
 
-  // Check whether features exist
-  if (e.features.length > 0) {
-    // Display the magnitude, location, and time in the sidebar
-    magDisplay.textContent = quakeMagnitude;
-    latDisplay.textContent = quakelat;
-    longDisplay.textContent = quakelong;
-
-    // If quakeID for the hovered feature is not null,
-    // use removeFeatureState to reset to the default behavior
-    if (quakeID) {
-      map.removeFeatureState({
-        source: "lab1-6tcxtj",
-        id: quakeID
-      });
-    }
-
-    quakeID = e.features[0].id;
-
-    // When the mouse moves over the earthquakes-viz layer, update the
-    // feature state for the feature under the mouse
-    map.setFeatureState({
-      source: 'lab1-6tcxtj',
-      id: quakeID,
-    }, {
-      hover: true
-    });
-
-  }
+ 
 });
 
 
