@@ -1,5 +1,5 @@
 # Welcome to Jingyuan's Lab2 Interactive Mapping
-# 14 US States Household Composition and Explorationwells
+# US States Household Composition and Explorationwells
 [Link to map: https://ubc-geos472-spring2022.github.io/jyli47-lab1-webc/lab2](https://editor.p5js.org/jli47/full/y6MXzHRHB)
 ![US House Holder Example and Explorationwell](https://user-images.githubusercontent.com/97953213/159106220-53bc319e-e5c3-4b4e-a545-cf0ce7f91176.png)
 
