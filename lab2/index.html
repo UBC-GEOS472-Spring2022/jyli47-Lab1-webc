@@ -114,7 +114,18 @@ map.setFeatureState(
 }
 });
 
-
+//
+// change info window on hover
+map.on('mousemove', (e) => {
+const states = map.queryRenderedFeatures(e.point, {
+layers: ['household-composition-by-stat-0v3qf4']
+});
+document.getElementById('pd').innerHTML = states.length
+? `<p><strong><em>${states[0].properties.TotalHH_e19}</strong> Total household composition number</em></p>`
+: `<p>Hover over a state!</p>`;
+});
+  
+//
 // When the mouse leaves the state-fill layer, update the feature state of the
 // previously hovered feature.
 map.on('mouseleave', 'state-fills', () => {
