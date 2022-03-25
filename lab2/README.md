@@ -8,6 +8,6 @@ The method we can use chose vector data base map for the state boundary dataset 
 
  Using Mapbox Studio created new style and changed it to be able to style up some of my own data within an insightful and relevant visual context. I produced this context through choosing and thoughtfully altering an existing map style. I chose the data is showing the total household composition number in Georgia of Atlanta US state and the explorationwells along east coast Atlantic Ocean.
  
-To show the result on the map, we need to code for making html file, load the vector data to the internet, and operate and interactive with users., the number of total hosehold composition will be changed in the information window when mouse move over the states. (In this lab, only Geogia State which is red color works because I only got the this state data.)
+To show the result on the map, we need to code for making html file, load the vector data to the internet, and operate and interactive with users., the number of total hosehold composition will be changed in the information window when mouse move over the states. (In this lab, only Georgia State which is red color works because I only got this state data.)
 
 Finally, joined context of the two layers in the style, shared the style and generated the URL, turned it to the GitHub repositories.  Turned it on the Github and submitted it. 
