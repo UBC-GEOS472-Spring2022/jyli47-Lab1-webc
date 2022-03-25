@@ -12,3 +12,10 @@ The method we can use chose vector data base map for the state boundary dataset 
 To show the result on the map, we need to code for making html file, load the vector data to the internet, and operate and interactive with users., the number of total hosehold composition will be changed in the information window when mouse move over the states. (In this lab, only Georgia State which is red color works because I only got this state data.)
 
 Finally, joined context of the two layers in the style, shared the style and generated the URL, turned it to the GitHub repositories.  Turned it on the Github and submitted it. 
+
+
+Data Source:
+ArcGIS Hub's open data
+Household Composition (by State of Georgia) 2019
+Georgia Association of Regional Commissions | opendata@arc
+"This dataset was developed by the Research &amp; Analytics Group at the Atlanta Regional Commission using data from the U.S. Census Bureau.For a deep dive into the data model including..."
